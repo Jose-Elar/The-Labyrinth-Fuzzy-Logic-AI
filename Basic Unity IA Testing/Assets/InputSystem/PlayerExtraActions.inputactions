@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "PlayerExtraActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "1b162441-a534-479d-bccf-2fffbbb42f8c",
+            "actions": [
+                {
+                    "name": "CamaraSwitch",
+                    "type": "Button",
+                    "id": "870f4529-7fc3-4224-89f5-ad34e1a4329f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ReduceNPC_HP",
+                    "type": "Button",
+                    "id": "3635ad6c-8d5c-41e7-9ace-2e8908863017",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "45c80887-2d05-49f9-9824-20586a9a9416",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CamaraSwitch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fcd61db8-ab17-4a6f-9362-5878862d9191",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReduceNPC_HP",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
